@@ -1,0 +1,30 @@
+:root{
+    --font-size: 24px;
+}
+
+body{
+    margin: 0px;
+    display: flex;
+}
+/* side bar*/
+.sidehero{
+    background-image: url("mountain.jpg");
+    height: auto;
+    position: relative;
+    width: 40vw;
+    min-width: 345px;
+    height: 100vh;
+    flex-grow: 1;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    
+}
